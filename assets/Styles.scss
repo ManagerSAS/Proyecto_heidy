@@ -1,0 +1,52 @@
+@import  './TheHeader.scss';
+@import  './Intro.scss';
+.TitulosGenerales{
+    color:#003B4C; 
+    font-size: 30px; 
+    font-weight: 900;
+}
+.TextCTA{
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 0.1em 0.1em 0.2em black; 
+    font-weight: 900;
+    @media #{$tablet-device,$small-mobile}{
+        font-size: 1em;
+    }
+
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .banner .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .DescripcionProductos {
+  text-align: justify;
+  }
